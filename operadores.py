@@ -8,3 +8,4 @@
 
 print(5 % 2)  # Resto da divisão de 5 por 2
 
+#Observação: em Python, só um igual "=" é usado para atribuição de valor a uma variável. Já "==" é usado para comparar valores.
