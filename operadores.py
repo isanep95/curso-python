@@ -6,4 +6,5 @@
 
 #Operadores de comparação: ==, !=, >, <, >=, <=
 
-print(2+2)
+print(5 % 2)  # Resto da divisão de 5 por 2
+
