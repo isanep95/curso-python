@@ -12,3 +12,30 @@
 #Se você tiver 10 reais ou mais, pode comprar o cappuccino.
 #Se tiver 7 reais ou mais, pode comprar o café com leite.
 #Se não, pode comprar o café simples.
+
+
+
+#Sintaxe básica no Python!
+
+# if - "se"
+# elif - "senão, se"
+# else - "senão"
+
+#if condição:
+    #Código a ser executado se a condição for verdadeira
+    #elif outra_condição:
+        #Código executado se a primeira condição for falsa, mas essa for verdadeira
+    #else:
+        #Código executado se nenhuma das condições anteriores for verdadeira
+
+
+
+
+# EXEMPLOS
+# Verificando a idade para a entrada em um evento (18 ANOS)
+
+idade = int(input("Digite sua idade: ")) # Usuário digita a idade
+if idade >=18:
+    print("Você pode entrar no evento!")
+else:
+    print("Você não pode entrar no evento!")
