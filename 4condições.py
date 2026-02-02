@@ -34,8 +34,19 @@
 # EXEMPLOS
 # Verificando a idade para a entrada em um evento (18 ANOS)
 
-idade = int(input("Digite sua idade: ")) # Usuário digita a idade
-if idade >=18:
-    print("Você pode entrar no evento!")
+#idade = int(input("Digite sua idade: ")) # Usuário digita a idade
+#if idade >=18:
+#    print("Você pode entrar no evento!")
+#else:
+#    print("Você não pode entrar no evento!")
+
+# Verificando a nota de um aluno
+
+nota = float(input("Digite a nota do aluno: ")) # Usuário digita a nota
+
+if nota >= 7.0:
+    print("Aluno aprovado!")
+elif nota >= 5.0:
+    print("Aluno em recuperação!")
 else:
-    print("Você não pode entrar no evento!")
+    print("Aluno reprovado!")
