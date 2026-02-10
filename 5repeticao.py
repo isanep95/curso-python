@@ -33,8 +33,14 @@
 
     # Contando de 1 a 5 com FOR
 
-for numero in range(1, 6):
-        print(numero)
+# for numero in range(1, 6):
+        # print(numero)
     # O range(1, 6) gera os números de 1 a 5, o último número do range não é incluído.
     # [1, 2, 3, 4, 5]
-    
+
+# Percorrendo uma lista de compras
+
+compras = ["Arroz", "Feijão", "Macarrão", "Leite"]
+
+for item in compras:
+    print(f"Comprar {item}")
