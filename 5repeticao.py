@@ -40,7 +40,37 @@
 
 # Percorrendo uma lista de compras
 
-compras = ["Arroz", "Feijão", "Macarrão", "Leite"]
+# compras = ["Arroz", "Feijão", "Macarrão", "Leite"]
+# for item in compras:
+    # print(f"Comprar: {item}")
 
-for item in compras:
-    print(f"Comprar {item}")
+
+
+
+# WHILE
+# O while é usado quando não sabemos quantas vezes a repetição vai acontecer,
+# mas sabemos a condição que deve ser atendida para continuar.
+
+# while condição:
+    # Código a ser repetido enquanto a condição for verdadeira
+
+# obs: Cuidado com loops infinitos!
+# Se a condição nunca mudar para False, o código nunca para de rodar.
+
+# Contagem regressiva
+
+# contador = 5
+# while contador > 0:
+    # print(contador)
+    # contador -= 1  # Diminui 1 do contador a cada repetição
+    # 
+    # print("Fogo!")
+
+# Pedindo para o usuário digitar senha até acertar
+senha_correta = "1234"
+senha_digitada = ""
+
+while senha_digitada != senha_correta:
+    senha_digitada = input("Digite a senha: ")
+
+print("Senha correta! Acesso liberado.")
