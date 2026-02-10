@@ -18,4 +18,3 @@ letraprocurada = "i"
 for letra in palavra:
     if letra == letraprocurada:
         print(f"A palavra contém a letra {letraprocurada}")
-        
